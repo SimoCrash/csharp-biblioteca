@@ -11,5 +11,14 @@ public class Users
     string email;
     string password;
     string phone;
+
+    public Users(string name, string surname, string email, string password, string phone)
+    {
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.password = password;
+        this.phone = phone;
+    }
 }
 
