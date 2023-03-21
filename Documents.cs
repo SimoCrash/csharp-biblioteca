@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Users
+namespace csharp_biblioteca
 {
-    string name;
-    string surname;
-    string email;
-    string password;
-    string phone;
+    internal class Documents
+    {
+    }
 }
-
